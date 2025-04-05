@@ -7,7 +7,7 @@ Este proyecto tiene como objetivo automatizar las pruebas funcionales de un siti
 - **Lenguaje**: JavaScript
 - **Framework de automatización**: Playwright
 - **Control de versiones**: Git
-- **Entorno de desarrollo**: Node.js
+- **Entorno de desarrollo**: intelliJ IDEA, Node.js
 
 ## Casos de Prueba (Test Cases)
 1. **Prueba de Login**
