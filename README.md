@@ -1,35 +1,36 @@
-# Proyecto de Automatización de Pruebas - Tienda online
+# Test Automation Project – Online Store
 
-## Alcance de Pruebas
-Este proyecto tiene como objetivo automatizar las pruebas funcionales de un sitio web de compras. Las pruebas automatizadas validan funcionalidades clave como login, logout, agregar productos al carrito, eliminar productos y proceso de checkout.
+## Test Scope
+This project aims to automate the **functional testing** of a shopping website. The automated tests validate core functionalities such as **login, logout, adding products to the cart, removing products, and completing the checkout process**.
 
-## Herramientas y Tecnologías
-- **Lenguaje**: JavaScript
-- **Framework de automatización**: Playwright
-- **Control de versiones**: Git
-- **Entorno de desarrollo**: intelliJ IDEA, Node.js
+## Tools and Technologies
+- **Language**: JavaScript  
+- **Automation Framework**: Playwright  
+- **Version Control**: Git  
+- **Development Environment**: IntelliJ IDEA, Node.js  
 
-## Casos de Prueba (Test Cases)
-1. **Prueba de Login**
-   - **Descripción**: Verificar que los usuarios puedan iniciar sesión con credenciales válidas.
-   - **Pasos**:
-     1. Abrir la página de login.
-     2. Ingresar usuario y contraseña.
-     3. Verificar que el usuario sea redirigido a la página principal.
-   - **Resultado esperado**: Usuario autenticado y redirigido a la página de inicio.
+## Test Cases
 
-2. **Prueba de Agregar al Carrito**
-   - **Descripción**: Validar que los productos se agreguen correctamente al carrito de compras.
-   - **Pasos**:
-     1. Ingresar al sitio web.
-     2. Seleccionar un producto y agregarlo al carrito.
-     3. Verificar que el producto aparezca en el carrito.
-   - **Resultado esperado**: El producto se añade correctamente al carrito.
+### 1. Login Test
+- **Description**: Verify that users can log in with valid credentials.
+- **Steps**:
+  1. Open the login page.
+  2. Enter username and password.
+  3. Confirm redirection to the homepage.
+- **Expected Result**: User is successfully authenticated and redirected to the homepage.
 
-## Instrucciones para Ejecutar las Pruebas
-1. Clonar este repositorio:
+### 2. Add to Cart Test
+- **Description**: Ensure that products are correctly added to the shopping cart.
+- **Steps**:
+  1. Access the website.
+  2. Select a product and add it to the cart.
+  3. Check that the product appears in the cart.
+- **Expected Result**: The selected product is added correctly to the cart.
+
+*Additional test cases (like remove from cart, logout, and checkout) may be added in future updates.*
+
+## How to Run the Tests
+
+1. Clone this repository:
    ```bash
-    https://github.com/cejasmd/Proyecto-Aut.softw/tree/main
-
-
-
+   git clone https://github.com/cejasmd/Proyecto-Aut.softw.git
