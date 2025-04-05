@@ -29,7 +29,7 @@ Este proyecto tiene como objetivo automatizar las pruebas funcionales de un siti
 ## Instrucciones para Ejecutar las Pruebas
 1. Clonar este repositorio:
    ```bash
-   git clone https://github.com/[tu-usuario]/[tu-repositorio].git
+    https://github.com/cejasmd/Proyecto-Aut.softw/tree/main
 
 
 
